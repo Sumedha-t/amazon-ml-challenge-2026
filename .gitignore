@@ -1,0 +1,55 @@
+# =========================
+# Amazon ML Challenge Data
+# =========================
+
+data/student_resource/dataset/
+
+# Any challenge TSV/CSV files
+*.tsv
+*.csv
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+.venv/
+venv/
+env/
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Generated Outputs
+# =========================
+
+output/*
+experiments/results/*
+reports/figures/*
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
